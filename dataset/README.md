@@ -5,13 +5,13 @@ This dataset contains packet-level data for Modbus network traffic. It is used f
 ## Dataset Overview
 
 - **Total Samples**: 6,690
-- **Features**: 19 packet features (including padding) encoded in hexadecimal format.
+- **Features**: 17 packet features (including padding) encoded in hexadecimal format.
 - **Target**: The final column contains the class label (0 for normal, 1 for abnormal traffic).
 
 ## Dataset Structure
 
 - **Columns**: 
-  - **Feature Columns**: 19 columns representing packet data (hexadecimal).
+  - **Feature Columns**: 17 columns representing packet data (hexadecimal).
   - **Target Column**: A binary label indicating whether the packet is normal (0) or abnormal (1).
 
 
