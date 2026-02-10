@@ -56,8 +56,8 @@ From the project root directory:
 
 ```bash
 pip install -r requirements.txt
+```
 
----
 
 ## ▶️ How to Run the Project
 
@@ -73,7 +73,7 @@ From the project root, open Terminal 1 and run:
 
 ```bash
 ./scripts/run_api.sh
-
+```
 
 After the backend starts, open the API documentation in your browser:
 http://127.0.0.1:8000/docs
@@ -130,5 +130,5 @@ http://127.0.0.1:8501
 ├── README.md
 └── LICENSE
 
----
+```
 
