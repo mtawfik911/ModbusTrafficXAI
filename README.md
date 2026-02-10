@@ -49,43 +49,6 @@ This project provides:
 
 ---
 
-##  Repository Structure
-
-```text
-.
-├── api/                      # FastAPI backend
-│   └── app.py
-├── gui/                      # Streamlit GUI
-│   └── app.py
-├── src/modbus_traffic_xai/   # Core Python package
-│   ├── models.py             # CNN & Attention models
-│   ├── preprocessing.py     # Data loading & preprocessing
-│   ├── visualization.py     # Training plots
-│   ├── xai/
-│   │   ├── lime_explainer.py
-│   │   └── shap_explainer.py
-│   └── config.py
-├── scripts/
-│   ├── run_api.sh
-│   ├── run_gui.sh
-│   ├── test_lime.py
-│   └── test_shap.py
-├── dataset/                  # Dataset files
-├── models/                   # Trained models (.keras)
-│   ├── cnn.keras
-│   └── attention.keras
-├── results/
-│   ├── shap/
-│   │   └── shap_summary_sample0.png
-│   └── lime/
-│       └── lime_sample0.html
-├── requirements.txt
-├── .gitignore
-├── README.md
-└── LICENSE
-
----
-
 ## ⚙️ Requirements & Installation
 
 ### Install dependencies
@@ -131,4 +94,41 @@ Open **another terminal** (Terminal 2) and run:
 
 Then open the GUI in your browser:
 http://127.0.0.1:8501
+
+##  Repository Structure
+
+```text
+.
+├── api/                      # FastAPI backend
+│   └── app.py
+├── gui/                      # Streamlit GUI
+│   └── app.py
+├── src/modbus_traffic_xai/   # Core Python package
+│   ├── models.py             # CNN & Attention models
+│   ├── preprocessing.py     # Data loading & preprocessing
+│   ├── visualization.py     # Training plots
+│   ├── xai/
+│   │   ├── lime_explainer.py
+│   │   └── shap_explainer.py
+│   └── config.py
+├── scripts/
+│   ├── run_api.sh
+│   ├── run_gui.sh
+│   ├── test_lime.py
+│   └── test_shap.py
+├── dataset/                  # Dataset files
+├── models/                   # Trained models (.keras)
+│   ├── cnn.keras
+│   └── attention.keras
+├── results/
+│   ├── shap/
+│   │   └── shap_summary_sample0.png
+│   └── lime/
+│       └── lime_sample0.html
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── LICENSE
+
+---
 
