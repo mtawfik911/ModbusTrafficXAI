@@ -1,6 +1,21 @@
-Flask==2.1.1
+# Core ML
 tensorflow==2.12.0
-numpy>=1.21.0
-pandas>=1.3.0
-scikit-learn>=1.0.2
-matplotlib==3.7.2
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+
+# Visualization
+matplotlib==3.10.8
+
+# XAI
+lime==0.2.0.1
+shap==0.48.0
+
+# API
+fastapi==0.128.7
+uvicorn==0.40.0
+pydantic==2.12.5
+
+# GUI
+streamlit==1.49.0
+requests==2.32.3
