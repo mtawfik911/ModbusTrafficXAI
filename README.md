@@ -91,7 +91,7 @@ Open **another terminal** (Terminal 2) and run:
 
 ```bash
 ./scripts/run_gui.sh
-
+```
 Then open the GUI in your browser:
 http://127.0.0.1:8501
 
